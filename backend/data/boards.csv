@@ -1,0 +1,33 @@
+board_id,category,points,question,answer
+board_01,History,100,In what year did World War II end?,1945
+board_01,History,150,Who was the first President of the United States?,George Washington
+board_01,History,200,In what year did the Berlin Wall fall?,1989
+board_01,History,250,Which empire was ruled by Genghis Khan?,Mongol Empire
+board_01,Science,100,What is the chemical symbol for water?,H2O
+board_01,Science,150,How many planets are in our solar system?,8
+board_01,Science,200,What is the speed of light in km/s (approx)?,300000
+board_01,Science,250,What particle has no electric charge in an atom's nucleus?,Neutron
+board_01,Geography,100,What is the capital of France?,Paris
+board_01,Geography,150,Which is the longest river in the world?,The Nile
+board_01,Geography,200,On which continent is the Sahara desert?,Africa
+board_01,Geography,250,What is the smallest country in the world by area?,Vatican City
+board_01,Pop Culture,100,Who played Iron Man in the Marvel movies?,Robert Downey Jr.
+board_01,Pop Culture,150,Which band released the album 'Abbey Road'?,The Beatles
+board_01,Pop Culture,200,What TV show features the character Walter White?,Breaking Bad
+board_01,Pop Culture,250,In which year was the first iPhone released?,2007
+board_02,Sports,100,How many players are on a standard soccer team?,11
+board_02,Sports,150,In which sport is the term 'love' used as a score?,Tennis
+board_02,Sports,200,Which country has won the most FIFA World Cups?,Brazil
+board_02,Sports,250,How many rings are on the Olympic flag?,5
+board_02,Food & Drink,100,What is the main ingredient in guacamole?,Avocado
+board_02,Food & Drink,150,Which country is the origin of sushi?,Japan
+board_02,Food & Drink,200,What type of pastry is used in a croissant?,Laminated dough
+board_02,Food & Drink,250,What is the Scoville scale used to measure?,Spiciness of peppers
+board_02,Movies,100,Who directed the movie Jurassic Park?,Steven Spielberg
+board_02,Movies,150,What movie features the quote 'I'll be back'?,The Terminator
+board_02,Movies,200,Which Disney film features the song 'Let It Go'?,Frozen
+board_02,Movies,250,What year was the first Star Wars film released?,1977
+board_02,Music,100,What is the name of Taylor Swift's debut album?,Taylor Swift
+board_02,Music,150,Who is known as the 'King of Pop'?,Michael Jackson
+board_02,Music,200,How many strings does a standard guitar have?,6
+board_02,Music,250,Which composer wrote the 'Moonlight Sonata'?,Beethoven
