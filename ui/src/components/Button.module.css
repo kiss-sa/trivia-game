@@ -1,0 +1,25 @@
+.button {
+  padding: 0.7em 1.8em;
+  font-size: 1.5rem;
+  font-family: "Jersey 25";
+  background-color: var(--color-surface);
+  color: inherit;
+  cursor: pointer;
+  border: 0;
+  transition: border-color 0.2s, background-color 0.2s;
+  box-shadow: 0px 5px var(--color-text), 0px -5px var(--color-text), 5px 0px var(--color-text), -5px 0px var(--color-text), 0px 10px #00000038, 5px 5px #00000038, -5px 5px #00000038, inset 0px 5px #ffffff36;
+}
+
+.button:hover {
+  background-color: var(--color-bg);
+}
+
+button:active {
+  transform: translateY(5px);
+  box-shadow: 0px 5px var(--color-text), 0px -5px var(--color-text), 5px 0px var(--color-text), -5px 0px var(--color-text), inset 0px 5px #00000038;
+}
+
+.button:focus-visible {
+  outline: 3px solid var(--color-primary);
+  outline-offset: 2px;
+}

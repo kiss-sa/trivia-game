@@ -1,4 +1,6 @@
 import { useEffect, useState } from 'react'
+import Button from './components/Button'
+import styles from './App.module.css'
 
 function App() {
   const [boardCount, setBoardCount] = useState<number | null>(null)
@@ -10,9 +12,9 @@ function App() {
   }, [])
 
   return (
-    <div>
+    <div className={styles.page}>
       <p>Boards available: {boardCount ?? '...'}</p>
-      <button>Start Game</button>
+      <Button>Start Game</Button>
     </div>
   )
 }
