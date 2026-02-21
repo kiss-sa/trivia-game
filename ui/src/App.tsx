@@ -1,22 +1,12 @@
-import { useEffect, useState } from 'react'
-import Button from './components/Button'
-import styles from './App.module.css'
+import { Routes, Route } from 'react-router-dom'
+import Home from './pages/Home'
+import BoardPage from './pages/Board'
 
-function App() {
-  const [boardCount, setBoardCount] = useState<number | null>(null)
-
-  useEffect(() => {
-    fetch('/api/boards')
-      .then((res) => res.json())
-      .then((data) => setBoardCount(data.length))
-  }, [])
-
+export default function App() {
   return (
-    <div className={styles.page}>
-      <p>Boards available: {boardCount ?? '...'}</p>
-      <Button>Start Game</Button>
-    </div>
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/board/:id" element={<BoardPage />} />
+    </Routes>
   )
 }
-
-export default App
