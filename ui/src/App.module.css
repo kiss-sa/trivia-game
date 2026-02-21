@@ -6,3 +6,17 @@
   min-height: 100vh;
   gap: 1.5rem;
 }
+
+.title {
+  font-family: "Jersey 25", sans-serif;
+  font-size: 5rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--color-primary);
+  text-shadow:
+    4px 4px 0 var(--color-text),
+    -2px -2px 0 var(--color-text),
+    2px -2px 0 var(--color-text),
+    -2px 2px 0 var(--color-text);
+  margin: 0;
+}
