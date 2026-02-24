@@ -4,6 +4,7 @@ type Question struct {
 	QuestionText string `json:"questionText"`
 	Answer       string `json:"answer"`
 	Points       int    `json:"points"`
+	Answered     bool   `json:"answered"`
 }
 
 type Category struct {

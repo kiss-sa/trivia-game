@@ -26,12 +26,9 @@ export default function BoardPage() {
     const [board, setBoard] = useState<Board | null>(null)
 
     useEffect(() => {
-        fetch('/api/boards')
+        fetch(`/api/boards/${id}`)
             .then((res) => res.json())
-            .then((boards: Board[]) => {
-                const found = boards.find((b) => b.id === id)
-                if (found) setBoard(found)
-            })
+            .then((board: Board) => setBoard(board))
     }, [id])
 
     if (!board) return null
